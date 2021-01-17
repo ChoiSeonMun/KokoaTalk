@@ -51,10 +51,11 @@
 }
 
 .user-component__subtitle {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--font-gray);
 }
 
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+  color: var(--font-gray);
 }
