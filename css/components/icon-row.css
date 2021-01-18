@@ -1,5 +1,6 @@
 .icons-component {
   border-bottom: var(--border);
+  margin-top: 20px;
 }
 
 .icon-row {

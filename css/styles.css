@@ -14,7 +14,6 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
-@import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
@@ -26,8 +25,6 @@ body {
 }
 
 .main-screen {
-  width: 100%;
-  box-sizing: border-box;
+  margin-top: 80px;
   padding: 0px 15px;
-  margin-top: 100px;
 }

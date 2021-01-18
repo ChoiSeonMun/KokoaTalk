@@ -19,8 +19,16 @@
   width: 5px;
   height: 5px;
   position: absolute;
-  right: -7px;
+  right: -5px;
+  top: -7px;
+}
+
+.badge--dot--low {
   top: -5px;
+}
+
+.badge--dot--high {
+  top: -12px;
 }
 
 .badge-parent {

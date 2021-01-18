@@ -1,7 +1,12 @@
+.friends-screen {
+  margin-top: 10px;
+  padding: 0px 15px;
+}
+
 .friends-display-link {
   display: block;
   text-align: center;
-  margin-top: 64px;
+  margin-top: 74px;
   padding: 10px 0px;
   background-color: #fafafa;
   color: #2e363e;
@@ -12,7 +17,7 @@
 }
 
 .friends-screen__channel {
-  margin: 15px 15px;
+  margin: 15px 0px;
   border-top: var(--border);
   padding-top: 15px;
   color: var(--font-gray);
@@ -82,5 +87,5 @@
 
 .ani-elem--bounce {
   animation: bounceUpAndDown 3.3s ease-in-out infinite;
-  animation-delay: 1.1s;
+  animation-delay: 2s;
 }
