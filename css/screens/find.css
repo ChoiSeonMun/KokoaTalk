@@ -1,38 +1,9 @@
-.cog-dot {
-  position: absolute;
-  top: 5px;
-}
-
 .find-screen {
   position: absolute;
   top: 64px;
   width: 100%;
   box-sizing: border-box;
   padding: 0px 15px;
-}
-
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  border-bottom: var(--border);
-  padding-bottom: 20px;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 23%;
-}
-
-.find-icons__icon i {
-  font-size: 30px;
-}
-
-.find-icons__icon span {
-  margin-top: 10px;
-  text-align: center;
 }
 
 .recommended-friends__header {

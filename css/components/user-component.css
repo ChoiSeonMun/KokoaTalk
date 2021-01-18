@@ -21,7 +21,7 @@
 .user-component__avartar {
   width: 60px;
   height: 60px;
-  border-radius: 40%;
+  border-radius: 35%;
   margin-right: 10px;
 }
 
@@ -58,4 +58,12 @@
   display: block;
   margin-bottom: 10px;
   color: var(--font-gray);
+}
+
+.user-component__icon--red {
+  color: rgba(255, 0, 0, 0.8);
+}
+
+.user-component__icon--clear {
+  color: rgba(0, 0, 0, 0.8);
 }

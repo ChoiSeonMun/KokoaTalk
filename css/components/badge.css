@@ -12,4 +12,6 @@
 .badge--dot {
   width: 5px;
   height: 5px;
+  position: absolute;
+  top: 5px;
 }
