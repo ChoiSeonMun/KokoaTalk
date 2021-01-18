@@ -1,9 +1,7 @@
 .friends-display-link {
   display: block;
   text-align: center;
-  position: absolute;
-  top: 64px;
-  width: 100%;
+  margin-top: 64px;
   padding: 10px 0px;
   background-color: #fafafa;
   color: #2e363e;
@@ -11,13 +9,6 @@
 
 .friends-display-link i {
   color: #aaaaaa;
-}
-
-.friends-screen {
-  position: absolute;
-  top: 100px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .friends-screen__channel {
@@ -31,4 +22,33 @@
 
 .friends-screen__channel__title {
   font-weight: 500;
+}
+
+@keyframes showUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.ani-elem {
+  opacity: 0;
+  transform: scale(1.5);
+  will-change: transform;
+  animation: showUp 0.5s ease-in-out forwards;
+}
+
+.ani-elem:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.ani-elem:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.ani-elem:nth-child(4) {
+  animation-delay: 0.9s;
 }
