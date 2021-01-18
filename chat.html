@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - KokoaTalk</title>
+  </head>
+  <body class="chat-screen">
+    <header class="status-bar">
+      <section class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </section>
+      <section class="status-bar__column">
+        <span>18:43</span>
+      </section>
+      <section class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </section>
+    </header>
+
+    <header class="alt-setting-header">
+      <div class="alt-setting-header__column">
+        <a href="chats.html">
+          <i class="fas fa-chevron-left fa-lg"></i>
+        </a>
+      </div>
+      <div class="alt-setting-header__column">
+        <span>ChoiSeonMun</span>
+      </div>
+      <div class="alt-setting-header__column">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="chat-date">
+        <span class="chat-date__text">Monday, Jan 18, 2021</span>
+      </div>
+
+      <ul class="chat-list">
+        <li class="chat">
+          <div class="chat__column">
+            <img
+              class="user-component__avartar user-component__avartar--xs"
+              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/ChoiSeonMun-avatar.jpg"
+            />
+          </div>
+          <div class="chat__column">
+            <span class="chat__name">ChoiSeonMun</span>
+            <div class="chat-msg-area">
+              <div class="chat-msg-area__column">
+                <span class="chat__msg">Hi!</span>
+              </div>
+              <div class="chat-msg-area__column">
+                <span class="chat-time">22:39</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="chat chat--self">
+          <div class="chat-msg-area chat-msg-area--self">
+            <div class="chat-msg-area__column">
+              <span class="chat__msg chat__msg--self">What's up?</span>
+            </div>
+            <div class="chat-msg-area__column">
+              <span class="chat-time">22:39</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="chat">
+          <div class="chat__column">
+            <img
+              class="user-component__avartar user-component__avartar--xs"
+              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/ChoiSeonMun-avatar.jpg"
+            />
+          </div>
+          <div class="chat__column">
+            <span class="chat__name">ChoiSeonMun</span>
+            <div class="chat-msg-area">
+              <div class="chat-msg-area__column">
+                <span class="chat__msg">I've got something interesting.</span>
+              </div>
+              <div class="chat-msg-area__column">
+                <!-- <span class="chat-time">22:39</span> -->
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="chat">
+          <div class="chat__column">
+            <img
+              class="user-component__avartar user-component__avartar--xs"
+              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/ChoiSeonMun-avatar.jpg"
+            />
+          </div>
+          <div class="chat__column">
+            <span class="chat__name">ChoiSeonMun</span>
+            <div class="chat-msg-area">
+              <div class="chat-msg-area__column">
+                <span class="chat__msg"
+                  >There is a website that we can learn about dev!</span
+                >
+              </div>
+              <div class="chat-msg-area__column">
+                <span class="chat-time">22:39</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="chat chat--self">
+          <div class="chat-msg-area chat-msg-area--self">
+            <div class="chat-msg-area__column">
+              <span class="chat__msg chat__msg--self">O, What's that?</span>
+            </div>
+            <div class="chat-msg-area__column">
+              <span class="chat-time">22:40</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="chat">
+          <div class="chat__column">
+            <img
+              class="user-component__avartar user-component__avartar--xs"
+              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/ChoiSeonMun-avatar.jpg"
+            />
+          </div>
+          <div class="chat__column">
+            <span class="chat__name">ChoiSeonMun</span>
+            <div class="chat-msg-area">
+              <div class="chat-msg-area__column">
+                <span class="chat__msg">That's NomadCoder!</span>
+              </div>
+              <div class="chat-msg-area__column">
+                <span class="chat-time">22:40</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="chat chat--self">
+          <div class="chat-msg-area chat-msg-area--self">
+            <div class="chat-msg-area__column">
+              <span class="chat__msg chat__msg--self"
+                >Ok, I'll check it out later.</span
+              >
+            </div>
+            <div class="chat-msg-area__column">
+              <span class="chat-time">22:40</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <form class="keyboard">
+      <div class="keyboard__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="keyboard__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink"></i>
+        <i class="fas fa-arrow-up"></i>
+      </div>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/056c047519.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

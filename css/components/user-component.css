@@ -35,6 +35,11 @@
   height: 50px;
 }
 
+.user-component__avartar--xs {
+  width: 33px;
+  height: 33px;
+}
+
 .user-component__text {
   display: flex;
   flex-direction: column;

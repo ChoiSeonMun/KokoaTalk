@@ -1,0 +1,134 @@
+.chat-screen {
+  background-color: var(--sky);
+  height: 150vh;
+}
+
+.chat-screen .status-bar {
+  background-color: var(--sky);
+}
+
+.chat-screen .alt-setting-header {
+  background-color: var(--sky);
+}
+
+.chat-date {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.chat-date__text {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.chat-list li {
+  margin-bottom: 10px;
+}
+
+.chat {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.chat--self {
+  justify-content: flex-end;
+}
+
+.chat-msg-area {
+  display: flex;
+}
+
+.chat-msg-area--self {
+  flex-direction: row-reverse;
+}
+
+.chat-msg-area__column {
+  display: flex;
+}
+
+.chat__msg {
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-right: 5px;
+  border-top-left-radius: 0px;
+}
+
+.chat__msg--self {
+  background-color: var(--yellow);
+  margin-left: 5px;
+  margin-right: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+}
+
+.chat-time {
+  font-size: 10px;
+  color: var(--font-gray);
+  align-self: flex-end;
+}
+
+.chat__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__name {
+  color: var(--font-gray);
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.keyboard {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 18px;
+}
+
+.keyboard__column i {
+  color: var(--font-gray);
+  font-size: 24px;
+}
+
+.keyboard__column:last-child {
+  width: 88%;
+  box-sizing: border-box;
+  border: var(--border);
+  padding: 2px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.keyboard__column:last-child input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 80%;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+
+.keyboard__column:last-child > i:last-child {
+  background-color: var(--yellow);
+  border-radius: 50%;
+  padding: 8px 9px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 10px;
+}

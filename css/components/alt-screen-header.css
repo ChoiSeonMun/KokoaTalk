@@ -1,6 +1,11 @@
 .alt-setting-header {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 22px;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .alt-setting-header__column {
@@ -20,4 +25,8 @@
 
 .alt-setting-header__column:last-child {
   justify-content: flex-end;
+}
+
+.alt-setting-header__column:last-child > i:last-child {
+  margin-left: 20px;
 }

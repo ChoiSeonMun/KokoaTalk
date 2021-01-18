@@ -2,4 +2,6 @@
   --yellow: #fae100;
   --border: 1px solid rgba(0, 0, 0, 0.1);
   --font-gray: rgba(0, 0, 0, 0.5);
+  --msg-padding: 8px 10px;
+  --sky: #abc1d1;
 }
