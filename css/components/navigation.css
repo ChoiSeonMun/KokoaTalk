@@ -14,18 +14,5 @@
 }
 
 .nav__link {
-  position: relative;
   color: #2e363e;
-}
-
-.nav__notification {
-  position: absolute;
-  left: 13px;
-  bottom: 10px;
-}
-
-.nav__dot {
-  position: absolute;
-  left: 20px;
-  top: -5px;
 }
