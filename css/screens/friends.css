@@ -86,6 +86,6 @@
 }
 
 .ani-elem--bounce {
-  animation: bounceUpAndDown 3.3s ease-in-out infinite;
+  animation: bounceUpAndDown 3s ease-in-out infinite;
   animation-delay: 2s;
 }
