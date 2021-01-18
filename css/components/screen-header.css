@@ -1,5 +1,5 @@
 .screen-header {
-  position: absolute;
+  position: fixed;
   top: 22px;
   width: 100%;
   display: flex;
