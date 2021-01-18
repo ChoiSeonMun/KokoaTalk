@@ -9,6 +9,12 @@
   color: white;
 }
 
+.badge--sm {
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+}
+
 .badge--dot {
   width: 5px;
   height: 5px;
